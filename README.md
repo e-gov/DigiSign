@@ -12,6 +12,8 @@ Repo sisaldab saatja ja vastuvõtja vahelist protokolli (kokkulepet) edastatava 
 
 4  Allkirjastamisel kasutatud privaatvõtmele vastava avaliku võtme edastab saatja vastuvõtjale taustakanali kaudu. Avalik võti edastatakse PEM-formaadis failina; faili nimi on `publickey.pem`.
 
+4a  Täiendava kindluse (salgamatuse) tagamiseks võivad pooled kokku leppida, et saatja allkirjastab  edastatava avaliku võtme identiteediga, mida mõlemad pooled usaldavad - nt saadab avaliku võtme Eesti digiallkirjaga allkirjastatult (s.t allkirjastab avalikku võtit sisaldava faili ID-kaardiga või mobiil-ID-ga. Seejuures on oluline allkirjastatavasse konteinerisse lisada kaaskiri, mis sõnastab võtme kasutamise eesmärgi.).
+
 5  Allkirjastamisel kasutatav võtmepaar genereeritakse 2 aastaks.
 
 6  Privaatvõtme kompromiteerumisel, kompromiteerumise kahtluse korral või 2-aastase perioodi lõppemisel genereerib saatja uue võtmepaari ja edastab uue avaliku võtme vastuvõtjale.

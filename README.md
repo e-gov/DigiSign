@@ -32,12 +32,23 @@ Rakenduste ehitamine (repo peakaustast):
 go build ./createkey
 go build ./sign
 go build ./verify
-createkey
-sign
-verify
 ````
 
+Rakenduste käivitamine (Windows):
 
+````
+createkey
+sign
+verify.exe
+````
+
+Rakenduste käivitamine (Linux):
+
+````
+./createkey
+./sign
+./verify
+````
 
 Allkirja saab kontrollida ka käsurealt OpenSSL abil:
 

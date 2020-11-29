@@ -50,6 +50,6 @@ Rakenduste käivitamine (Linux):
 ./verify
 ````
 
-Allkirja saab kontrollida ka käsurealt OpenSSL abil:
+Allkirjafaili formaati saab soovi kontrollida ka käsurealt OpenSSL abil:
 
 `openssl asn1parse -inform DER -in data.sign`.
